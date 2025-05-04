@@ -10,4 +10,5 @@ public class RescuepawApplication {
 		SpringApplication.run(RescuepawApplication.class, args);
 	}
 
+
 }

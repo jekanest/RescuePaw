@@ -1,5 +1,6 @@
 package com.animalsafenet.rescuepaw.model;
 
+import com.animalsafenet.rescuepaw.repository.entity.Role;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -12,7 +13,7 @@ public class UserDAO {
     private Long id;
     private String email;
     private String name;
-    private String role;
+    private Role role;
 
 
 }
