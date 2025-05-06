@@ -1,6 +1,8 @@
 package com.animalsafenet.rescuepaw.service;
 
 import com.animalsafenet.rescuepaw.repository.entity.AnimalReport;
+import com.animalsafenet.rescuepaw.repository.entity.ReportType;
+
 import java.util.List;
 
 public interface AnimalReportService {
@@ -10,5 +12,6 @@ public interface AnimalReportService {
     void deleteReport(Long id);
     List<AnimalReport> getAllReports();
     AnimalReport getReportById(Long id);
+    List<AnimalReport> getReportByType(ReportType reportType);
 
 }
